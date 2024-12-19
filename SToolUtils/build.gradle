@@ -1,12 +1,9 @@
 plugins {
     alias(libs.plugins.android.library)
 }
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.swn-dev'
-
 
 android {
-    namespace 'com.sunwn.xtoolutils'
+    namespace 'com.sunwn.stoolutils'
     compileSdk 34
 
     defaultConfig {

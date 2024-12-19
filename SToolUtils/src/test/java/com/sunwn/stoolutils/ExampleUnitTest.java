@@ -1,4 +1,4 @@
-package com.sunwn.xtoolutils;
+package com.sunwn.stoolutils;
 
 import org.junit.Test;
 

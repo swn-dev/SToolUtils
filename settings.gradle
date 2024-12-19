@@ -11,23 +11,14 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        maven { url "https://jitpack.io" }
     }
-
-    buildscript {
-        dependencies {
-            classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-        }
-    }
-
 }
 
 rootProject.name = "SToolUtils"
 include ':app'
-include ':xtoolutils'
+include ':SToolUtils'
